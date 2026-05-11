@@ -10,3 +10,6 @@ Original file is located at
 scores = list(map(int, input().split()))
 count = sum(1 for s in scores if s < 60)
 print(count)
+if scores:
+    average = sum(scores) / len(scores)
+    print(average)
