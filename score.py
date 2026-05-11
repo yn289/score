@@ -15,3 +15,6 @@ nums = list(map(int, input().split()))
 
 print(max(nums))
 print(min(nums))
+if scores:
+    average = sum(scores) / len(scores)
+    print(average)
