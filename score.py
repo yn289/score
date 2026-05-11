@@ -11,10 +11,9 @@ scores = list(map(int, input().split()))
 count = sum(1 for s in scores if s < 60)
 print(count)
 
-nums = list(map(int, input().split()))
 
-print(max(nums))
-print(min(nums))
+print(max(scores))
+print(min(scores))
 if scores:
     average = sum(scores) / len(scores)
     print(average)
